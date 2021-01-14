@@ -1,11 +1,12 @@
 package Masivian.testMasivian.model;
+import lombok.Data;
 import java.util.ArrayList;
+@Data
 public class Roulette {
     public long id;
     public int number;
     public boolean state;
     public ArrayList bets = new ArrayList();
-
     public long getId() {
 
         return id;
